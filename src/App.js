@@ -8,11 +8,17 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import Hello from './components/Hello';
 import Stylesheet from './components/Stylesheet';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 
 function App() {
   return (
     <div className="App">
-    <Counter/>
+      <EventBind />
+      {/* <FunctionClick />
+      <ClassClick /> */}
+    {/* <Counter/>
       <Stylesheet/>
       <Greet name="Bruce" heroName="Batman">
         <p>This is child paragraph.</p>
@@ -23,7 +29,7 @@ function App() {
       <Greet name="Diana" heroName="Wonder Woman"/>
       <Welcome name="Bruce" heroName="Batman" />
       <Welcome name="Clark" heroName="Superman" />
-      <Welcome name="Diana" heroName="Wonder Woman" />
+      <Welcome name="Diana" heroName="Wonder Woman" /> */}
     </div>
   );
 }
